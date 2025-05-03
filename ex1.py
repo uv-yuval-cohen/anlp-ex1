@@ -53,7 +53,7 @@ def parse_and_validate_args() -> Tuple[DataArguments, ModelArguments, TrainingAr
     """
     parser = HfArgumentParser((DataArguments, ModelArguments, TrainingArguments))
 
-    data_args, model_args, training_args, do_qualitative = parser.parse_args_into_dataclasses()
+    data_args, model_args, training_args = parser.parse_args_into_dataclasses()
 
     # check arguments
     if data_args.max_train_samples < -1:
