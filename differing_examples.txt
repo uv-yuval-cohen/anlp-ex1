@@ -1,0 +1,391 @@
+Analysis comparing val_predictions_epochs_5.0_lr_3e-05_batch_8.txt (best) and val_predictions_epochs_2.0_lr_1e-05_batch_32.txt (worst)
+
+Found 55 examples where the best model succeeded but the worst failed:
+Overpredictions by worst model (predicted 1, true label 0): 47
+Underpredictions by worst model (predicted 0, true label 1): 8
+
+Example 1:
+Sentence 1: Magnarelli said Racicot hated the Iraqi regime and looked forward to using his long years of training in the war .
+Sentence 2: His wife said he was " 100 percent behind George Bush " and looked forward to using his years of training in the war .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 2:
+Sentence 1: The dollar was at 116.92 yen against the yen , flat on the session , and at 1.2891 against the Swiss franc , also flat .
+Sentence 2: The dollar was at 116.78 yen JPY = , virtually flat on the session , and at 1.2871 against the Swiss franc CHF = , down 0.1 percent .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 4:
+Sentence 1: No dates have been set for the civil or the criminal trial .
+Sentence 2: No dates have been set for the criminal or civil cases , but Shanley has pleaded not guilty .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 11:
+Sentence 1: " Sanitation is poor ... there could be typhoid and cholera , " he said .
+Sentence 2: " Sanitation is poor , drinking water is generally left behind . . . there could be typhoid and cholera . "
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 22:
+Sentence 1: The driver , Eugene Rogers , helped to remove children from the bus , Wood said .
+Sentence 2: At the accident scene , the driver was " covered in blood " but helped to remove children , Wood said .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 25:
+Sentence 1: Its closest living relatives are a family frogs called sooglossidae that are found only in the Seychelles in the Indian Ocean .
+Sentence 2: Its closest relative is found in the Seychelles Archipelago , near Madagascar in the Indian Ocean .
+True Label: 1 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 1
+Worst Model (Config c) Prediction: 0
+
+Example 37:
+Sentence 1: The civilian unemployment rate improved marginally last month -- slipping to 6.1 percent -- even as companies slashed payrolls by 93,000 .
+Sentence 2: The civilian unemployment rate improved marginally last month _ sliding down to 6.1 percent _ as companies slashed payrolls by 93,000 amid continuing mixed signals about the nation 's economic health .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 56:
+Sentence 1: In the 2002 study , the margin of error ranged from 1.8 to 4.4 percentage points .
+Sentence 2: It has a margin of error of plus or minus three to four percentage points .
+True Label: 1 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 1
+Worst Model (Config c) Prediction: 0
+
+Example 60:
+Sentence 1: Terri Schiavo , 39 , is expected to die sometime in the next two weeks in the Tampa-area hospice where she has spent the past several years .
+Sentence 2: Terri Schiavo , 39 , underwent the procedure at the Tampa Bay area hospice where she has been living for several years , said her father , Bob Schindler .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 68:
+Sentence 1: " Biotech products , if anything , may be safer than conventional products because of all the testing , " Fraley said , adding that 18 countries have adopted biotechnology .
+Sentence 2: " Biotech products , if anything , may be safer than conventional products because of all the testing , " said Robert Fraley , Monsanto 's executive vice president .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 83:
+Sentence 1: Danbury prosecutor Warren Murray could not be reached for comment Monday .
+Sentence 2: Prosecutors could not be reached for comment after the legal papers were obtained late Monday afternoon .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 90:
+Sentence 1: However , Lapidus expects foreign brands ' sales to be up 4 percent , driven by strong truck sales at Honda Motor Co .
+Sentence 2: Lapidus expects Ford to be down 5 percent , Chrysler down 10 percent and foreign brands up 4 percent driven by strong truck sales at Honda .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 101:
+Sentence 1: U.S. corporate bond yield spreads tightened in spotty trading on Friday as Wall Street labored to get back on its feet after the largest power outage ever in North America .
+Sentence 2: U.S. stocks rose slightly on feather-light volume on Friday , as Wall Street regrouped after the biggest-ever power outage in North America .
+True Label: 1 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 1
+Worst Model (Config c) Prediction: 0
+
+Example 104:
+Sentence 1: " I don 't know if the person I 'm talking to now may end up being someone else at another time that may not follow the rules , " Parrish said .
+Sentence 2: " I don 't know whether the person I 'm talking to now may end up being someone else , " Parrish said .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 115:
+Sentence 1: A European Union spokesman said the Commission was consulting EU member states " with a view to taking appropriate action if necessary " on the matter .
+Sentence 2: Laos 's second most important export destination - said it was consulting EU member states ' ' with a view to taking appropriate action if necessary ' ' on the matter .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 131:
+Sentence 1: He allegedly told his ex-wife in an angry phone call that he had no intention of following their new custody agreement .
+Sentence 2: The two had battled over custody and he allegedly told her in an angry phone call that he had no intention of following their new custody agreement .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 136:
+Sentence 1: Vivace was founded in 1999 and has raised over $ 118 million in three rounds of venture financing .
+Sentence 2: During difficult times for technology venture capital , Vivace raised over $ 118 million in three rounds of venture financing .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 141:
+Sentence 1: The Neighbours star and singer spent yesterday resting at her family home in Sydney and will have more tests today .
+Sentence 2: Goodrem spent yesterday resting in her family home in Sydney and will have more tests today to determine her exact treatment .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 144:
+Sentence 1: " It is bad for Symbian , " said Per Lindberg , analyst at Dresdner Kleinwort Wasserstein .
+Sentence 2: " Motorola has displayed clear disloyalty " to Symbian , said Per Lindberg , an analyst at Dresdner Kleinwort Wasserstein in London .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 150:
+Sentence 1: President Bush raised a record-breaking $ 49.5 million for his re-election campaign over the last three months , with contributions from 262,000 Americans , the president 's campaign chairman said Tuesday .
+Sentence 2: President Bush has raised $ 83.9 million since beginning his re-election campaign in May , and has $ 70 million of that left to spend , his campaign said Tuesday .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 158:
+Sentence 1: Morrill 's wife , Ellie , sobbed and hugged Bondeson 's sister-in-law during the service .
+Sentence 2: At the service Morrill 's widow , Ellie , sobbed and hugged Bondeson 's sister-in-law as people consoled her .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 167:
+Sentence 1: Christina 's aunt , Shelley Riling , said the defense 's claims were preposterous .
+Sentence 2: Christina 's aunt , Shelley Riling , said she will address the court .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 169:
+Sentence 1: Lord Falconer hailed the changes as " a new beginning as far as the courts , Crown Prosecution Service and police are concerned " .
+Sentence 2: " It 's a new beginning as far as the courts , Crown Prosecution Service and police are concerned , making the criminal justice system work better . "
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 170:
+Sentence 1: GE stock closed at $ 30.65 a share , down about 42 cents , on the New York Stock Exchange .
+Sentence 2: GE 's shares closed at $ 30.65 on Friday on the New York Stock Exchange .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 188:
+Sentence 1: And it 's going to be a wild ride , " said Allan Hoffenblum , a Republican consultant .
+Sentence 2: Now the rest is just mechanical , " said Allan Hoffenblum , a Republican consultant .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 191:
+Sentence 1: The WHO experts didn 't say how many cases in Hebei were in rural areas .
+Sentence 2: Hebei has reported 191 cases and eight deaths , though the WHO experts did not say how many were in rural areas .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 201:
+Sentence 1: The world 's largest software company said it recognized the difficulty the multiple patches posed for companies , and set out to make it easier for them to apply the updates .
+Sentence 2: The world 's largest software company said it recognized the difficulty the multiple patches posed for companies trying to apply them .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 202:
+Sentence 1: The Dow Jones industrial average .DJI ended up 64.64 points , or 0.71 percent , at 9,191.09 , according to the latest available data .
+Sentence 2: The blue-chip Dow Jones industrial average .DJI added 38 points , or 0.42 percent , to 9,165 .
+True Label: 1 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 1
+Worst Model (Config c) Prediction: 0
+
+Example 209:
+Sentence 1: " I had one bad stretch of holes that put me out of contention to win , " Woods said .
+Sentence 2: " I had one bad stretch of holes that put me out of contention , " Woods said , referring to his 42 on the front nine Saturday .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 212:
+Sentence 1: The broad Standard & Poor 's 500 < .SPX > eased 0.37 of a point , or 0.03 percent , at 1,121 .
+Sentence 2: The Standard & Poor 's 500 Index < .SPX > slipped 0.26 point , or 0.02 percent , to 1,121.96 .
+True Label: 1 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 1
+Worst Model (Config c) Prediction: 0
+
+Example 213:
+Sentence 1: Watertown , Saugus and Framingham also are going smoke-free Monday , joining a growing number of cities around the country .
+Sentence 2: Along with Boston , Watertown , Saugus and Framingham also are going smoke-free Monday .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 235:
+Sentence 1: He tried to fight off officers and was taken to a hospital after a police dog bit him but was later released .
+Sentence 2: Cruz tried to fight off officers and was hospitalized after a police dog bit him , Sgt. Steve Dixon said .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 237:
+Sentence 1: Asked if the delegates could leave on Friday , police intelligence chief in Aceh , Surya Dharma , told reporters they could not because they did not have proper permission .
+Sentence 2: Asked if the delegates could leave on Friday , police intelligence chief Surya Dharma told reporters : " Of course they may not go .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 247:
+Sentence 1: But late Thursday night , the campaign issued a statement saying there would be no news conference and no big announcement .
+Sentence 2: But late yesterday , the campaign and the state Democratic Party said there would be no news conference .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 251:
+Sentence 1: " We think that the United States of America should support the free speech of all groups , " Mr. White said , objecting to Mr. Olson 's recommendation .
+Sentence 2: We think that the United States of America should support the free speech of all groups , he said .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 259:
+Sentence 1: SP2 is basically about security enhancements to Windows , such as the improved Internet Connection Firewall ( ICF ) .
+Sentence 2: The firewall in the current Windows XP was known as the Internet Connection Firewall ( ICF ) .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 268:
+Sentence 1: The Calgary woman , who is in her twenties , donated blood on Aug. 7 .
+Sentence 2: The woman -- who has no symptoms of illness -- donated blood Aug. 7 .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 270:
+Sentence 1: In the weeks leading up to the execution , several Florida officials received anonymous threatening letters .
+Sentence 2: Several Florida officials connected to the case have received threatening letters , accompanied by rifle bullets .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 284:
+Sentence 1: Rosenthal is hereby sentenced to custody of the Federal Bureau of prisons for one day with credit for time served , " Breyer said to tumultuous cheers in the courtroom .
+Sentence 2: " Rosenthal is hereby sentenced to custody of the Federal Bureau of Prisons for one day with credit for time served . "
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 290:
+Sentence 1: The state 's House delegation currently consists of 17 Democrats and 15 Republicans .
+Sentence 2: Democrats hold a 17-15 edge in the state 's U.S. House delegation .
+True Label: 1 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 1
+Worst Model (Config c) Prediction: 0
+
+Example 306:
+Sentence 1: Singapore Prime Minister Goh Chok Tong says China plays an important role in the integration of Asia , including managing the stresses and strains both within and between countries .
+Sentence 2: HAINAN PROVINCE , China : Singapore Prime Minister Goh Chok Tong said China plays an important role in the integration of Asia .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 308:
+Sentence 1: The premium edition adds OfficeFront Page 2003 , Acceleration Server 2000 , and SQL Server 2000 .
+Sentence 2: The premium edition adds ISA Server , SQL Server and a specialized edition of BizTalk 2004 .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 315:
+Sentence 1: Lu reclined in a soft chair wearing a woolly coat near the blackened capsule .
+Sentence 2: " It 's great to be back home , " said Lu , dressed in a woolly coat near the blackened capsule .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 319:
+Sentence 1: Franklin County Judge-Executive Teresa Barton said a firefighter was struck by lightning and was taken to the Frankfort Regional Medical Center .
+Sentence 2: A county firefighter , was struck by lightning and was in stable condition at Frankfort Regional Medical Center .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 321:
+Sentence 1: During this year 's August to October quarter , Lowe 's opened 38 new stores , including two relocations .
+Sentence 2: During the third quarter , Lowe 's opened 38 new stores and now has 932 stores in 45 states .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 338:
+Sentence 1: We strongly disagree with Novell 's position and view it as a desperate measure to curry favor with the Linux community .
+Sentence 2: McBride characterized Novell 's move as " a desperate measure to curry favor with the Linux community . "
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 350:
+Sentence 1: Thyroid hormones are known to help in weight loss by stimulating metabolism - and cutting cholesterol - but come with the unwanted side effect of speeding up the heartbeat .
+Sentence 2: Thyroid hormones are known to help in weight loss by stimulating metabolism , and they can help cut cholesterol too .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 354:
+Sentence 1: It decided instead to issue them before the stock market opened Monday after the downgrade of its debt late Friday by Moody 's , the credit rating agency .
+Sentence 2: It decided instead to issue them before the stock market opened Monday to counteract the downgrade of its debt late Friday by Moody 's to one step above junk status .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 363:
+Sentence 1: " The government elements who have been causing trouble are still in place .
+Sentence 2: The government elements who have been causing trouble are still in place , they are attacking us . "
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 370:
+Sentence 1: Detectives told Deasean 's father , Stelly Chisolm , a college student , and mother , Kimberly Hill , of the arrest shortly after Perry was apprehended .
+Sentence 2: Shortly after his arrest , detectives told Deasean 's father , Stelly Chisolm , a college student , and mother , Kimberly Hill , a medical assistant , about the development .
+True Label: 1 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 1
+Worst Model (Config c) Prediction: 0
+
+Example 375:
+Sentence 1: The euro was at 1.5281 versus the Swiss franc EURCHF = , up 0.2 percent on the session , after hitting its highest since mid-2001 around 1.5292 earlier in the session .
+Sentence 2: The euro was steady versus the Swiss franc after hitting its highest since mid-2001 of 1.5261 earlier in the session .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 377:
+Sentence 1: Garner said the group would probably be expanded to include , for example , a Christian and perhaps another Sunni leader .
+Sentence 2: The group has already met several times and Gen. Garner said it probably will be expanded to include a Christian and perhaps another Sunni Muslim leader .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 382:
+Sentence 1: GE stock closed Friday at $ 30.65 a share , down about 42 cents , on the New York Stock Exchange .
+Sentence 2: GE 's shares closed at $ 30.65 on Friday on the New York Stock Exchange .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 385:
+Sentence 1: In the United States , heart attacks kill about 460,000 year , in Canada about 80,000 .
+Sentence 2: In the United States , heart attacks kill about 460,000 yearly , according to the National Institutes of Health .
+True Label: 0 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 0
+Worst Model (Config c) Prediction: 1
+
+Example 402:
+Sentence 1: Gregory Parseghian , a former investment banker , was appointed chief executive .
+Sentence 2: Greg Parseghian was appointed the new chief executive .
+True Label: 1 (1=equivalent, 0=not equivalent)
+Best Model (Config d) Prediction: 1
+Worst Model (Config c) Prediction: 0
+
