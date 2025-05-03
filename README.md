@@ -13,6 +13,7 @@ To install the required dependencies, run:
 ## Project Structure
 
 - `ex1.py`: Main script for fine-tuning and prediction
+- `wx1_answers.pdf`: Answers for assignment's Questions
 - `qualitative_analysis.py`: Script for analyzing differences between model configurations
 - `res.txt`: Results file containing validation accuracies for different configurations
 - `predictions.txt`: Test predictions for the best model (Config d: epoch_num=5, lr=3e-05, batch_size=8).
