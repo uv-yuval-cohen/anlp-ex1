@@ -52,7 +52,20 @@ def parse_and_validate_args() -> Tuple[DataArguments, ModelArguments, TrainingAr
     Parse and validate command line arguments.
     """
     parser = HfArgumentParser((DataArguments, ModelArguments, TrainingArguments))
-
+    # Add custom --lr argument to map to learning_rate
+    parser.add_argument(
+        "--lr",
+        type=float,
+        help="Learning rate for training.",
+        dest="learning_rate"
+    )
+    # Add custom --batch_size argument to map to per_device_train_batch_size
+    parser.add_argument(
+        "--batch_size",
+        type=int,
+        help="Batch size for training and evaluation.",
+        dest="per_device_train_batch_size"
+    )
     data_args, model_args, training_args = parser.parse_args_into_dataclasses()
 
     # check arguments
